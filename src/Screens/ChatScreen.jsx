@@ -37,7 +37,7 @@ const ChatScreen = () => {
             <MensajeForm/>
         </div>
     )
-}
+} 
 
 
 export { ChatScreen }
