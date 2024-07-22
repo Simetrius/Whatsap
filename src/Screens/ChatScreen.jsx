@@ -1,18 +1,17 @@
 import React from 'react'
-import { ChatHeaderInfo, ListaMensajes } from '../Components/Chat'
-
+import { ChatHeaderInfo, ListaMensajes, MensajeForm } from '../Components/Chat'
 
 const MOOK_MENSAJES = [
     {
         author: 'yo',
-        text: 'texto de mensaje',
+        text: 'Hola walteeeeeer!!!!!',
         estado: 'visto',
         day: 'hoy',
         hour: '13:15',
         id: '1'
     },
     {
-        author: 'pepe',
+        author: 'Walter Giardino',
         text: 'Hola que tal?',
         estado: 'visto',
         day: 'hoy',
@@ -33,7 +32,7 @@ const ChatScreen = () => {
     return (
         <div>
             <ChatHeaderInfo/>
-            <ListaMensajes/>
+            <ListaMensajes mookMensajes={MOOK_MENSAJES}/>
             <MensajeForm/>
         </div>
     )

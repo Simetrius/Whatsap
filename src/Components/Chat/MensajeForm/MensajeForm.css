@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Geologica", sans-serif;
+}
+
+i{
+    color: #8696A0;
+}
+
+.message-section{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    background-color: #202C33;
+    justify-content: space-between;
+}
+
+.message-section .message-hub{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+div .emotes{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.message-section  .message-input{
+
+    margin: 8.5px 30px;
+    padding: 0 20px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    background-color: #2A3942;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+div .clipboard{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+div .camera{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+
+}
+
+.message-section .audio{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-right: 100px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #090d0f;
+}

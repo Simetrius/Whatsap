@@ -1,8 +1,14 @@
 import React from 'react'
+import { Mensaje } from '../Mensaje/Mensaje'
+import './ListaMensajes.css'
 
-const ListaMensajes = () => {
+const ListaMensajes = ({mookMensajes}) => {
   return (
-    <div>ListaMensajes</div>
+    <div className='contenedor'>
+      {
+        mookMensajes.map((mookMensaje) => <Mensaje mensaje={mookMensaje}/>)
+      }
+    </div>
   )
 }
 

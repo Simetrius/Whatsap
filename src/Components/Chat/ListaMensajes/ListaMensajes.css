@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-image: url('https://cdn.wallpapersafari.com/46/27/ZWbv3h.jpg') 
+}
