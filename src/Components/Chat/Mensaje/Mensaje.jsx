@@ -5,7 +5,7 @@ const Mensaje = ({ mensaje }) => {
   const {author, text, state, day, hour, id} = mensaje
   
   return (
-    <div  id="usuario" className={author} key={id}>
+    <div   className={author} key={id}>
       <div className="burbuja">
         <div className="author-name">
           <span className="author fonts">{author}</span>

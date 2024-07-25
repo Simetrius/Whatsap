@@ -17,12 +17,18 @@ i{
     flex-direction: row;
     height: 8vh;
     background-color: #202C33;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .message-section .message-hub{
     display: flex;
     flex-direction: row;
+    margin: 0px 10px;
+    width: 1200px;
+}
+
+div .funcionalidades{
+    display: flex;
     gap: 20px;
 }
 
@@ -35,9 +41,9 @@ div .emotes{
 
 .message-section  .message-input{
 
-    margin: 8.5px 30px;
+    margin: 15px 30px;
     padding: 0 20px;
-    width: 50%;
+    width: 90%;
     color: rgb(255, 255, 255);
     background-color: #2A3942;
     border: none;
@@ -59,14 +65,15 @@ div .camera{
 
 }
 
-.message-section .audio{
+.message-section .enviar{
     display: flex;
     flex-direction: row;
     font-size: 25px;
-    margin-right: 100px;
-    width: 50px;
+    width: 60px;
     align-items: center;
     justify-content: center;
     border: none;
     background-color: #090d0f;
+    border-radius: 10px;
+    margin: 15px 0px;
 }

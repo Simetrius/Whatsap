@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ChatHeaderInfo, ListaMensajes, MensajeForm } from '../Components/Chat'
 
 const MOOK_MENSAJES = [
@@ -29,11 +29,26 @@ const MOOK_MENSAJES = [
 ]
 
 const ChatScreen = () => {
+    
+    const [mensaje, setMensaje] = useState(MOOK_MENSAJES)
+
+        const handleSubmitMensaje = (nuevoMensaje) =>{
+            setMensaje([...mensaje,{
+                author: 'yo',
+                text: nuevoMensaje,
+                estado: 'enviado',
+                day: 'hoy',
+                hour: '13:17',
+                id: '4'
+
+            }])
+        }
+
     return (
         <div>
             <ChatHeaderInfo/>
-            <ListaMensajes mookMensajes={MOOK_MENSAJES}/>
-            <MensajeForm/>
+            <ListaMensajes mookMensajes={mensaje}/>
+            <MensajeForm handleSubmitMensaje={handleSubmitMensaje}/>
         </div>
     )
 } 
