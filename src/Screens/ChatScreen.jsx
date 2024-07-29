@@ -1,36 +1,17 @@
 import React, { useState } from 'react'
 import { ChatHeaderInfo, ListaMensajes, MensajeForm } from '../Components/Chat'
+import { MOOK_CONTACTOS } from '../dataMook'
+import { useParams } from 'react-router-dom'
+import './ChatScreen.css'
 
-const MOOK_MENSAJES = [
-    {
-        author: 'yo',
-        text: 'Hola walteeeeeer!!!!!',
-        estado: 'visto',
-        day: 'hoy',
-        hour: '13:15',
-        id: '1'
-    },
-    {
-        author: 'Walter Giardino',
-        text: 'Hola que tal?',
-        estado: 'visto',
-        day: 'hoy',
-        hour: '13:16',
-        id: '2'
-    },
-    {
-        author: 'yo',
-        text: 'Sos real? OMG',
-        estado: 'visto',
-        day: 'hoy',
-        hour: '13:17',
-        id: '3'
-    }
-]
 
 const ChatScreen = () => {
+
+    const {chatId} = useParams()
+    const contacto = MOOK_CONTACTOS.find(contacto => contacto.userId == chatId)
+    const {chat_mensajes} = contacto
     
-    const [mensaje, setMensaje] = useState(MOOK_MENSAJES)
+    const [mensaje, setMensaje] = useState(chat_mensajes)
 
         const handleSubmitMensaje = (nuevoMensaje) =>{
             setMensaje([...mensaje,{
@@ -39,13 +20,13 @@ const ChatScreen = () => {
                 estado: 'enviado',
                 day: 'hoy',
                 hour: '13:17',
-                id: '4'
+                id: mensaje.length + 1
 
             }])
         }
 
     return (
-        <div>
+        <div className='chat-screen'>
             <ChatHeaderInfo/>
             <ListaMensajes mookMensajes={mensaje}/>
             <MensajeForm handleSubmitMensaje={handleSubmitMensaje}/>

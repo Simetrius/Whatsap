@@ -6,7 +6,7 @@ const ListaMensajes = ({mookMensajes}) => {
   return (
     <div className='contenedor'>
       {
-        mookMensajes.map((mookMensaje) => <Mensaje mensaje={mookMensaje}/>)
+        mookMensajes.map((mookMensaje) => <Mensaje mensaje={mookMensaje} key={mookMensaje.id}/>)
       }
     </div>
   )

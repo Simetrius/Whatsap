@@ -5,7 +5,7 @@ const Mensaje = ({ mensaje }) => {
   const {author, text, state, day, hour, id} = mensaje
   
   return (
-    <div   className={author} key={id}>
+    <div   className={validacionAutor(author)} key={id}>
       <div className="burbuja">
         <div className="author-name">
           <span className="author fonts">{author}</span>
@@ -24,6 +24,14 @@ const Mensaje = ({ mensaje }) => {
   )
 }
 
+const validacionAutor = (autor) => {
+  if(autor == 'yo'){
+      return 'yo'
+  }
+  else{
+      return 'otro'
+  }
+}
 
 
 export { Mensaje }
