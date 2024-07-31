@@ -1,26 +1,28 @@
 import React from "react"
 import './Contacts.css'
 import { Link } from 'react-router-dom'
-import { MOOK_CONTACTOS } from "../../dataMook"
-import { MdGroup } from "react-icons/md";
-import { LiaHistorySolid } from "react-icons/lia";
-import { RiChatNewLine } from "react-icons/ri";
-import { HiDotsVertical } from "react-icons/hi";
+import { MOOK_CONTACTOS } from "../../../dataMook"
+import { FormBusquedaContactos } from "../FormBusquedaContactos/FormBusquedaContactos";
 
-const Contacts = () => {
+
+
+const Contacts = ({search, onSearchChange}) => {
+
+
     return (
         <div className='contact-list'>
             <div className='contact-header'>
+                <div className="logo-box">
+                    <img className="logo" src="../../../public/logo.png" alt="logo-wsp" />
+                </div>
                 <div className='titulo'>
                     <h2>CONTACTOS GUITARRISTAS</h2>
                 </div>
                 <div className='user-box'>
-                    <div className='icon'><MdGroup className='icons' /></div>
-                    <div className='icon'><LiaHistorySolid className='icons' /></div>
-                    <div className='icon'><RiChatNewLine className='icons' /></div>
-                    <div className='icon'><HiDotsVertical className='icons' /></div>
+                    <FormBusquedaContactos search={search} onSearchChange={onSearchChange}/>
                 </div>
             </div>
+            
             <div className='contactos'>
                 {MOOK_CONTACTOS.map(usuario => {
                     return (
@@ -40,12 +42,6 @@ const Contacts = () => {
                         </div>
                     )
                 })}
-            </div>
-            <div className='add-contact'>
-                <div className='contacto'>
-                    <span>+</span>
-                    <span>Añadir contacto</span>
-                </div>
             </div>
         </div>
     )

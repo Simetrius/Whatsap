@@ -142,7 +142,7 @@ const MOOK_CONTACTOS =
                 author:'Angus Young',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -150,7 +150,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -158,7 +158,7 @@ const MOOK_CONTACTOS =
                 author:'Angus Young',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -183,7 +183,7 @@ const MOOK_CONTACTOS =
                 author:'Carlos Santana',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -191,7 +191,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -199,7 +199,7 @@ const MOOK_CONTACTOS =
                 author:'Carlos Santana',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -224,7 +224,7 @@ const MOOK_CONTACTOS =
                 author:'Fernando Ruiz Diaz',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -232,7 +232,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -240,7 +240,7 @@ const MOOK_CONTACTOS =
                 author:'Fernando Ruiz Diaz',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -265,7 +265,7 @@ const MOOK_CONTACTOS =
                 author:'Steve Vai',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -273,7 +273,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -281,7 +281,7 @@ const MOOK_CONTACTOS =
                 author:'Steve Vai',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -306,7 +306,7 @@ const MOOK_CONTACTOS =
                 author:'Napolitano Pappo',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -314,7 +314,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -322,7 +322,7 @@ const MOOK_CONTACTOS =
                 author:'Napolitano Pappo',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -347,7 +347,7 @@ const MOOK_CONTACTOS =
                 author:'Ritchie Blackmore',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -355,7 +355,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -363,7 +363,7 @@ const MOOK_CONTACTOS =
                 author:'Ritchie Blackmore',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -389,7 +389,7 @@ const MOOK_CONTACTOS =
                 author:'Gene Simmons',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -397,7 +397,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -405,7 +405,7 @@ const MOOK_CONTACTOS =
                 author:'Gene Simmons',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },
@@ -431,7 +431,7 @@ const MOOK_CONTACTOS =
                 author:'Yngwie Malmsteen',
                 text:'Que haces amigo el finde salimos con Walter Giardino, te sumas?',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:1
             },
@@ -439,7 +439,7 @@ const MOOK_CONTACTOS =
                 author:'yo',
                 text:'De una amigo',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'11:59',
                 id:2
             },
@@ -447,7 +447,7 @@ const MOOK_CONTACTOS =
                 author:'Yngwie Malmsteen',
                 text:'Listo nos vemos el finde',
                 state:'visto',
-                day:'1 week ago',
+                day:'hace 1 semana',
                 hour:'12:00',
                 id:3
             },

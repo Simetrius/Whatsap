@@ -1,0 +1,117 @@
+.contact-list {
+    background-color: #202C33;
+    color: #D1D7DB;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A2F32;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.titulo h2 {
+    color: #00BFA5;
+    font-size: 30px;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+}
+
+.contactos {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.contacto:hover {
+    background-color: #2A2F32;
+}
+
+.contacto-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contacto-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-user {
+    font-size: 20px;
+    margin: 0;
+}
+
+.last-mensaje {
+    font-size: 15px;
+    color: #B0BEC5;
+}
+
+.connection-box {
+    font-size: 12px;
+    color: #B0BEC5;
+}
+
+.last-connection {
+    text-align: right;
+}
+
+
+
+/* Media Query para pantallas de 800px o menos */
+@media (max-width: 800px) {
+    .contactos {
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+    }
+}

@@ -21,7 +21,6 @@ const ChatScreen = () => {
                 day: 'hoy',
                 hour: '13:17',
                 id: mensaje.length + 1
-
             }])
         }
 

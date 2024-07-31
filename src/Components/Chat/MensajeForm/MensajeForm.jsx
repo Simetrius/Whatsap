@@ -7,7 +7,6 @@ const MensajeForm = ({handleSubmitMensaje}) => {
     const handleSubmit = (evento) => {
         evento.preventDefault()
         handleSubmitMensaje(evento.target.mensaje.value)
-
     }
 
     return (

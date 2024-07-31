@@ -7,7 +7,7 @@
 .contenedor{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 82vh;
     overflow-y: scroll;
     background-image: url('https://www.shutterstock.com/shutterstock/photos/2274128315/display_1500/stock-vector-rock-n-roll-seamless-pattern-black-white-print-for-textiles-backgrounds-printing-grunge-style-2274128315.jpg') 
 }
