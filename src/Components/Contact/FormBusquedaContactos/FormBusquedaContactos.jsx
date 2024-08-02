@@ -1,12 +1,12 @@
-import React from 'react';
-import './FormBusquedaContactos.css';
+import React from "react";
+import "./FormBusquedaContactos.css";
 
 function FormBusquedaContactos({ search, onSearchChange }) {
     const handleChange = (e) => {
-        if (typeof onSearchChange === 'function') {
+        if (typeof onSearchChange === "function") {
             onSearchChange(e.target.value);
         } else {
-            console.error('onSearchChange no es una función');
+            console.error("onSearchChange no es una función");
         }
     }
 

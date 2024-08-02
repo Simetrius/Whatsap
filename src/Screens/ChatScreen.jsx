@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { ChatHeaderInfo, ListaMensajes, MensajeForm } from '../Components/Chat'
-import { MOOK_CONTACTOS } from '../dataMook'
-import { useParams } from 'react-router-dom'
-import './ChatScreen.css'
+import React, { useState } from "react"
+import { ChatHeaderInfo, ListaMensajes, MensajeForm } from "../Components/Chat"
+import { MOOK_CONTACTOS } from "../dataMook"
+import { useParams } from "react-router-dom"
+import "./ChatScreen.css"
 
 
 const ChatScreen = () => {
@@ -15,17 +15,17 @@ const ChatScreen = () => {
 
         const handleSubmitMensaje = (nuevoMensaje) =>{
             setMensaje([...mensaje,{
-                author: 'yo',
+                author: "yo",
                 text: nuevoMensaje,
-                estado: 'enviado',
-                day: 'hoy',
-                hour: '13:17',
+                estado: "enviado",
+                day: "hoy",
+                hour: "13:17",
                 id: mensaje.length + 1
             }])
         }
 
     return (
-        <div className='chat-screen'>
+        <div className="chat-screen">
             <ChatHeaderInfo/>
             <ListaMensajes mookMensajes={mensaje}/>
             <MensajeForm handleSubmitMensaje={handleSubmitMensaje}/>

@@ -1,5 +1,5 @@
-import React from 'react'
-import './Mensaje.css'
+import React from "react"
+import "./Mensaje.css"
 
 const Mensaje = ({ mensaje }) => {
   const {author, text, state, day, hour, id} = mensaje
@@ -25,11 +25,11 @@ const Mensaje = ({ mensaje }) => {
 }
 
 const validacionAutor = (autor) => {
-  if(autor == 'yo'){
-      return 'yo'
+  if(autor == "yo"){
+      return "yo"
   }
   else{
-      return 'otro'
+      return "otro"
   }
 }
 

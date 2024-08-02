@@ -1,8 +1,8 @@
-/* Asegúrate de que el fondo y los colores sean consistentes con los otros componentes */
+
 .chat-nav {
     background-color: #053621;
     color: #D1D7DB;
-    padding: 16px; /* 1rem = 16px */
+    padding: 16px; 
     display: flex;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -17,29 +17,29 @@
 }
 
 .arrow {
-    margin-right: 16px; /* Espacio entre el ícono y la imagen del perfil */
+    margin-right: 15px; 
     cursor: pointer;
 }
 
 .arrow i {
-    font-size: 24px; /* Tamaño del ícono */
-    color: #00BFA5; /* Color consistente con el diseño */
+    font-size: 25px;
+    color: #00BFA5;
 }
 
 .profile-pic {
-    margin-right: 16px; /* Espacio entre la imagen del perfil y el nombre */
+    margin-right: 15px; 
 }
 
 .profile-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
-    border: 2px solid #00BFA5; /* Borde que coincide con el color del diseño */
+    object-fit: cover;
+    border: 2px solid #00BFA5; 
 }
 
 .username-box {
-    font-size: 24px; /* Tamaño del texto del nombre del usuario */
+    font-size: 25px;
     font-weight: bold;
     color: #D1D7DB;
 }

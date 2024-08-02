@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Login.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Login.css";
+import { HeaderLogin } from "../HeaderLogin/HeaderLogin";
 
 const Login = () => {
-    const [user, setUser] = useState('');
-    const [password, setPassword] = useState('');
+    const [user, setUser] = useState("");
+    const [password, setPassword] = useState("");
     const [error, setError] = useState(false);
     const [canSubmit, setCanSubmit] = useState(false);
     const [loading, setLoading] = useState(false);
@@ -15,7 +16,7 @@ const Login = () => {
 
 
         setTimeout(() => {
-            if (user.toLowerCase() === 'ramiro' && password.toLowerCase() === 'maglio') {
+            if (user.toLowerCase() === "ramiro" && password.toLowerCase() === "maglio") {
                 setError(false);
                 setCanSubmit(true);
             } else {
@@ -27,18 +28,14 @@ const Login = () => {
     };
 
     return (
-        <div className='login-body'>
-            <header className='login-header'>
-                <h2>WHATSAP WEB - Ramiro Maglio</h2>
-                <img src="../../public/logo.png" alt="Logo" className="login-logo" />
-            </header>
-
-            <section className='login'>
+        <div className="login-body">
+            <HeaderLogin/>
+            <section className="login">
                 <h1>Login</h1>
                 <h3 className="login-instructions">
                     PARA PODER INICIAR SESION, DEBE LEER EL DOCUMENTO README, AHI SE ENCONTRARA EL USUARIO Y CONTRASEÑA DE ACCESO
                 </h3>
-                <form className='login-form' onSubmit={handleSubmit}>
+                <form className="login-form" onSubmit={handleSubmit}>
                     <label>Usuario</label>
                     <input 
                         type="text"
