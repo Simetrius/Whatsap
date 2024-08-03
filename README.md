@@ -1,4 +1,5 @@
 Simulador de Chat de WhatsApp
+https://whatsap-ramiro-maglio.vercel.app/ (Se configuró vercel para poder recargar la pagina sin que tire un error, y poder volver hacia atras)
 
 Instrucciones para Iniciar Sesión
 
@@ -41,6 +42,9 @@ Tecnologías Utilizadas:
   
 Futuras Mejoras:
 Espero que la descripción del proyecto sea clara y que el mismo cumpla con las expectativas. Continuaré trabajando para perfeccionarlo en el futuro.
+* Podria usar localStorage para poder almacenar la informacion enviada
+* Mejorar el fetch, principalmente para poder aplicarlo en la seccion CHAT
+* Darle mas funcionalidades a la aplicacion, como ingresar a una nueva seccion de estados, mandar audios o buscar mensajes mediante filtrado
 
 ¡Muchas gracias por su atención!
 
