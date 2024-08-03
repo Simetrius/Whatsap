@@ -120,18 +120,8 @@
 }
 
 
-/* Añadir estilos para el ícono de recarga */
 .loading-icon {
-    font-size: 24px; /* Ajustar tamaño del ícono */
-    color: #00BFA5; /* Color del ícono */
-    margin-top: 16px; /* Espaciado por encima del ícono */
-}
-
-.loading-icon i {
-    animation: spin 1s linear infinite; /* Animación de rotación */
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    font-size: 25px;
+    color: #00BFA5;
+    margin-top: 15px;
 }

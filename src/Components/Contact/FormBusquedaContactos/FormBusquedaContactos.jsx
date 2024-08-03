@@ -11,16 +11,14 @@ function FormBusquedaContactos({ search, onSearchChange }) {
     }
 
     return (
-        <>
-            <form className="form-busqueda">
-                <input
-                    type="text"
-                    placeholder="Buscar..."
-                    onChange={handleChange}
-                    value={search}
-                />
-            </form>
-        </>
+        <form className="form-busqueda">
+            <input
+                type="text"
+                placeholder="Buscar..."
+                onChange={handleChange}
+                value={search}
+            />
+        </form>
     );
 }
 

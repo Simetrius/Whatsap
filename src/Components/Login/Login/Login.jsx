@@ -12,7 +12,7 @@ const Login = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        setLoading(true); 
+        setLoading(true);
 
 
         setTimeout(() => {
@@ -29,7 +29,7 @@ const Login = () => {
 
     return (
         <div className="login-body">
-            <HeaderLogin/>
+            <HeaderLogin />
             <section className="login">
                 <h1>Login</h1>
                 <h3 className="login-instructions">
@@ -37,19 +37,19 @@ const Login = () => {
                 </h3>
                 <form className="login-form" onSubmit={handleSubmit}>
                     <label>Usuario</label>
-                    <input 
+                    <input
                         type="text"
                         id="username"
                         name="username"
                         placeholder="Usuario"
                         value={user}
-                        onChange={event => setUser(event.target.value)} 
+                        onChange={event => setUser(event.target.value)}
                         required
                     />
 
                     <label>Contraseña</label>
-                    <input 
-                        type="password" 
+                    <input
+                        type="password"
                         id="password"
                         name="password"
                         placeholder="Contraseña"
@@ -58,9 +58,11 @@ const Login = () => {
                         required
                     />
 
-                    <button type="submit">Iniciar Sesión</button>
+                    {/* Mostrar el botón de "Iniciar Sesión" solo si canSubmit es falso */}
+                    {!canSubmit && <button type="submit">Iniciar Sesión</button>}
                     <h4>CUANDO INICIE SESION CORRECTAMENTE, APARECERÁ EL BOTON DE IR A CONTACTOS!</h4>
                     {loading && <div className="loading-icon"><i className="bi bi-arrow-clockwise"></i></div>}
+
                     {/* Utilizar Link solo si canSubmit es verdadero */}
                     {canSubmit && !loading && <Link className="link-contactos" to="/contacts">Ir a Contactos</Link>}
                 </form>

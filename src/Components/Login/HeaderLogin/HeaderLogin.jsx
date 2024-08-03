@@ -1,11 +1,12 @@
 import React from 'react'
 import "./HeaderLogin.css"
+import imgWhatsap from "../../../../public/assets/logo.png"
 
 const HeaderLogin = () => {
   return (
     <header className='login-header'>
       <h2>WHATSAP WEB - Ramiro Maglio</h2>
-      <img src="../../public/logo.png" alt="Logo" className="login-logo" />
+      <img src={imgWhatsap} alt="Logo-whatsap" className="login-logo" />
     </header>
   )
 }
