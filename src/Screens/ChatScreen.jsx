@@ -10,7 +10,6 @@ const ChatScreen = () => {
     const {chatId} = useParams()
     const contacto = MOOK_CONTACTOS.find(contacto => contacto.userId == chatId)
     const {chat_mensajes} = contacto
-    
     const [mensaje, setMensaje] = useState(chat_mensajes)
 
         const handleSubmitMensaje = (nuevoMensaje) =>{

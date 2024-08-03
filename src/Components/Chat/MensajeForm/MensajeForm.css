@@ -17,6 +17,7 @@ i{
     height: 8vh;
     background-color: #053621;
     justify-content:center;
+    z-index: 2;
 }
 
 .message-section .message-hub{

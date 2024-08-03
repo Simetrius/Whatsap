@@ -2,7 +2,7 @@ const MOOK_CONTACTOS =
 [
     {
         nombre: "Walter Giardino",
-        img: "../assets/walterGiardino.jfif",
+        img: "/assets/walterGiardino.jfif",
         thumbnail: "OMG SI ERAS REAL",
         ultima_conexion: "ayer",
         userId: 1,
@@ -91,7 +91,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Ricardo Mollo",
-        img: "../assets/ricardoMollo.jpg",
+        img: "/assets/ricardoMollo.jpg",
         thumbnail: "decile a Walter Giardino que duerme afuera",
         ultima_conexion: "hoy",
         userId: 2,
@@ -132,7 +132,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Angus Young",
-        img: "../assets/angusYoung.jpg",
+        img: "/assets/angusYoung.jpg",
         thumbnail: "Nos olvidamos a Walter Giardino en la joda amigo",
         ultima_conexion: "hace una semana",
         userId: 3,
@@ -173,7 +173,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "David Gilmour",
-        img: "../assets/davidGilmour.webp",
+        img: "/assets/davidGilmour.webp",
         thumbnail: "¿Te gustaría tocar juntos?",
         ultima_conexion: "hace 2 días",
         userId: 4,
@@ -206,7 +206,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Jimmy Page",
-        img: "../assets/jimmyPage.avif",
+        img: "/assets/jimmyPage.avif",
         thumbnail: "Preparando nueva música",
         ultima_conexion: "hoy",
         userId: 5,
@@ -239,7 +239,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Eddie Van Halen",
-        img: "../assets/eddieVanHalen.webp",
+        img: "/assets/eddieVanHalen.webp",
         thumbnail: "Hablamos de guitarras",
         ultima_conexion: "ayer",
         userId: 6,
@@ -272,7 +272,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Jimi Hendrix",
-        img: "../assets/jimiHendrix.jpg",
+        img: "/assets/jimiHendrix.jpg",
         thumbnail: "Inspiración musical",
         ultima_conexion: "hace 3 días",
         userId: 7,
@@ -305,7 +305,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "B.B. King",
-        img: "../assets/BBKing.jpg",
+        img: "/assets/BBKing.jpg",
         thumbnail: "Consejos de blues",
         ultima_conexion: "hace 1 semana",
         userId: 8,
@@ -338,7 +338,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Brian May",
-        img: "../assets/brianMay.jpeg",
+        img: "/assets/brianMay.jpeg",
         thumbnail: "Charlando sobre astronomía",
         ultima_conexion: "hace dos semanas",
         userId: 9,
@@ -371,7 +371,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Kirk Hammett",
-        img: "../assets/kirkHammett.jpg",
+        img: "/assets/kirkHammett.jpg",
         thumbnail: "Practicando solos",
         ultima_conexion: "hace tres semanas",
         userId: 10,
@@ -404,7 +404,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Slash",
-        img: "../assets/slash.jpg",
+        img: "/assets/slash.jpg",
         thumbnail: "Nuevas técnicas de guitarra",
         ultima_conexion: "hace un mes",
         userId: 11,
@@ -437,7 +437,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Eric Clapton",
-        img: "../assets/ericClapton.webp",
+        img: "/assets/ericClapton.webp",
         thumbnail: "Discusión sobre blues",
         ultima_conexion: "hace dos meses",
         userId: 12,
@@ -470,7 +470,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Carlos Santana",
-        img: "../assets/carlosSantana.jfif",
+        img: "/assets/carlosSantana.jfif",
         thumbnail: "Recuerda revisar el nuevo álbum de Santana",
         ultima_conexion: "hace una semana",
         userId: 13,
@@ -511,7 +511,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Steve Ray Vaughan",
-        img: "../assets/SRV.jpg",
+        img: "/assets/SRV.jpg",
         thumbnail: "Consejos para mejorar tu técnica de guitarra",
         ultima_conexion: "hace una semana",
         userId: 14,
@@ -552,7 +552,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Steve Vai",
-        img: "../assets/steveVai.webp",
+        img: "/assets/steveVai.webp",
         thumbnail: "Nuevas técnicas para improvisar solos",
         ultima_conexion: "hace una semana",
         userId: 15,
@@ -593,7 +593,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Napolitano Pappo",
-        img: "../assets/pappo.avif",
+        img: "/assets/pappo.avif",
         thumbnail: "Recordatorio sobre el próximo concierto en tu ciudad",
         ultima_conexion: "hace una semana",
         userId: 16,
@@ -634,7 +634,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Ritchie Blackmore",
-        img: "../assets/ritchieBlachmore.webp",
+        img: "/assets/ritchieBlachmore.webp",
         thumbnail: "Consejos para escribir riffs de guitarra",
         ultima_conexion: "hace una semana",
         userId: 17,
@@ -675,7 +675,7 @@ const MOOK_CONTACTOS =
     },
     {
         nombre: "Gene Simmons",
-        img: "./assets/geneSimmons.webp",
+        img: "/assets/geneSimmons.webp",
         thumbnail: "Sugerencias para crear una banda de rock",
         ultima_conexion: "hace una semana",
         userId: 18,
