@@ -65,8 +65,8 @@ const Login = () => {
 
                     {/* Utilizar Link solo si canSubmit es verdadero */}
                     {canSubmit && !loading && <Link className="link-contactos" to="/contacts">Ir a Contactos</Link>}
+                    {error && <p className="error-message">Credenciales incorrectas. Intente nuevamente.</p>}
                 </form>
-                {error && <p className="error-message">Credenciales incorrectas. Intente nuevamente.</p>}
             </section>
         </div>
     );
