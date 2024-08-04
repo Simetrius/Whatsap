@@ -2,10 +2,10 @@ import React from "react"
 import "./Mensaje.css"
 
 const Mensaje = ({ mensaje }) => {
-  const {author, text, state, day, hour, id} = mensaje
+  const {author, text, day, hour, id} = mensaje
   
   return (
-    <div   className={validacionAutor(author)} key={id}>
+    <div className={validacionAutor(author)} key={id}>
       <div className="burbuja">
         <div className="author-name">
           <span className="author fonts">{author}</span>

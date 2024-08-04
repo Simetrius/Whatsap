@@ -16,7 +16,9 @@ const ChatHeaderInfo = () => {
           <Link to={"../contacts"}>
             <div className="arrow"><i className="bi bi-arrow-left"></i></div>
           </Link>
-          <div className="profile-pic"><img src={img} alt="Imagen del contacto" className="profile-img" /></div>
+          <div className="profile-pic">
+            <img className="profile-img" src={img} alt="Imagen del contacto"/>
+          </div>
           <div className="username-box">{nombre}</div>
         </div>
       </nav>

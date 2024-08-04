@@ -27,12 +27,12 @@ i{
     width: 1200px;
 }
 
-div .funcionalidades{
+div .message-section .funcions{
     display: flex;
     gap: 20px;
 }
 
-div .emotes{
+div .message-section .funcions .emotes{
     display: flex;
     font-size: 25px;
     align-items: center;

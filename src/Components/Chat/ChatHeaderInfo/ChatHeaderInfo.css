@@ -10,27 +10,27 @@
     height: 10vh;
 }
 
-.user-info {
+.chat-nav .user-info {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.arrow {
+.chat-nav .user-info .arrow {
     margin-right: 15px; 
     cursor: pointer;
 }
 
-.arrow i {
+.chat-nav .user-info .arrow i {
     font-size: 25px;
     color: #00BFA5;
 }
 
-.profile-pic {
+.chat-nav .user-info .profile-pic {
     margin-right: 15px; 
 }
 
-.profile-img {
+.chat-nav .user-info .profile-pic .profile-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -38,7 +38,7 @@
     border: 2px solid #00BFA5; 
 }
 
-.username-box {
+.chat-nav .user-info .username-box {
     font-size: 25px;
     font-weight: bold;
     color: #D1D7DB;
